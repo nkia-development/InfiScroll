@@ -1,0 +1,49 @@
+{
+  "name": "infiscroll",
+  "version": "0.0.1",
+  "description": "InfiScroll is an open-source React component designed to help developers easily implement infinite scrolling in their applications. With a focus on simplicity and flexibility, InfiScroll allows you to seamlessly load additional content as users reach the end of the page, providing a smooth and efficient user experience. Whether you’re building a social media feed, an e-commerce catalog, or any content-heavy application, InfiScroll makes infinite scrolling effortless to integrate and customize.",
+  "main": "dist/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "preview": "vite preview"
+  },
+  "files": [
+    "dist",
+    "readme.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "react",
+    "infinite scroll",
+    "scroll",
+    "component"
+  ],
+  "author": "jukangpark",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "jest-html-reporters": "^3.1.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  },
+  "homepage": "https://github.com/nkia-development/InfiScroll",
+  "bugs": {
+    "url": "https://github.com/nkia-development/InfiScroll/issues"
+  }
+}
