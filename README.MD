@@ -1,6 +1,6 @@
 # InfiScroll
 
-![alt text](InfiScrollLogo.jpeg)
+![alt text](InfiScrollLogo.png)
 
 **InfiScroll** is an open-source React component designed to help developers easily implement infinite scrolling in their applications. With a focus on simplicity and flexibility, InfiScroll allows you to seamlessly load additional content as users reach the end of the page, providing a smooth and efficient user experience. Whether you’re building a social media feed, an e-commerce catalog, or any content-heavy application, InfiScroll makes infinite scrolling effortless to integrate and customize.
 
