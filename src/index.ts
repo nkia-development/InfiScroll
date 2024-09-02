@@ -1,3 +1,3 @@
-export default function (): void {
-  console.log("hello world");
-}
+import InfiniteScroll from "./InfiniteScroll";
+
+export default InfiniteScroll;
